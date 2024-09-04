@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #9a9797;
-    padding: 10px 20px;
+    padding: 10px 70px;
   }
   
   /* Brand/logo styling */
@@ -21,23 +21,23 @@
   }
   
   /* Individual links */
-  .navbar-links a {
-    color: white;
+  .navbar-linksl aj {
+    /* color: white; */
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 4px;
     transition: background-color 0.3s;
   }
   
-  .navbar-links a:hover {
+  /* .navbar-links a:hover {
     background-color: #555;
-  }
+  } */
   
   /* Hamburger menu styling (hidden on large screens) */
   .hamburger {
     display: none;
     flex-direction: column;
-    cursor: pointer;
+    /* cursor: pointer; */
   }
   
   .hamburger .bar {
@@ -56,7 +56,7 @@
       right: 0;
       width: 100%;
       flex-direction: column;
-      background-color: #333;
+      background-color: #eaeaea;
       align-items: center;
       display: none;
     }
