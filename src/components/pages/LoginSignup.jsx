@@ -5,7 +5,7 @@ const LoginSignup = () => {
     <>
       <section
         id="login-signup"
-        className=" w-[100%] h-[87vh] flex items-center justify-center border-none rounded-xl bg-[#fce3fe] py-[auto]"
+        className=" w-[100%] h-[100%] pt-40 flex items-center justify-center border-none rounded-xl bg-[#fce3fe] py-[auto]"
       >
         <div className="loginsignup-container w-[580px] h-[auto] bg-white m-auto py-[30px] px-[60px]">
           <h1 className="my-3 mx-0 text-[32px] font-medium">Sign Up</h1>

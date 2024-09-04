@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <section
         id="hero"
-        className="flex bg-gradient-to-b from-indigo-100 max-[400px]:flex-col max-[400px]:p-7 ..."
+        className="pt-[10vh] flex bg-gradient-to-b from-indigo-100 max-[400px]:flex-col max-[400px]:p-7 max-[400px]:pt-[100px] ..."
       >
         {/* hero left */}
         <div className="hero-left flex flex-[1] flex-col justify-center gap-5 pl-[180px] leading-[1.1] max-[400px]:pl-[0]">

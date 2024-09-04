@@ -40,7 +40,7 @@ const Footer = () => {
         </ul>
         {/* Footer Social Icons */}
         <div className="footer-social-icon flex gap-5">
-          <div className="footer-icon-container flex items-center justify-center p-[10px] pb-[6px] gap-10 bg-[#fbfbfb] border-[#ebebeb]">
+          <div className="footer-icon-container flex items-center justify-center p-[10px] pb-[6px] gap-10 border-[#ebebeb]">
             <BsInstagram className="text-[25px] max-[400px]:text-[18px]" />
             <TiSocialPinterestCircular className="text-[25px]" />
             <BsWhatsapp className="text-[25px] max-[400px]:text-[18px]" />

@@ -6,6 +6,7 @@ import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const [menu, setMenu] = useState("shop");
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -13,40 +14,65 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbarl flex justify-around shadow-gray-300 max-[400px]:justify-between max-[400px]:items-center max-[400px]:py-4 max-[400px]:px-5">
+    <nav className="navbarl bg-[#c9d4fd] w-full h-[12vh] fixed z-50 flex justify-between px-[5vw] shadow-gray-300 max-[400px]:justify-between max-[400px]:items-center max-[400px]:py-4 max-[400px]:px-5">
       <div className="nav-logo flex items-center gap-2">
-        <img src={Logo} alt="" className="max-[400px]:h-[40px]" />
-        <p className="text-[#171717] text-[38px] font-semibold max-[400px]:font-medium max-[400px]:text-[20px]">
+        <img src={Logo} alt="" className="h-[50px] max-[400px]:h-[40px]" />
+        <p className="text-[#171717] text-[30px] font-semibold max-[400px]:font-medium max-[400px]:text-[20px]">
           SHOPPER
         </p>
       </div>
       <div id="ham-nav" className={`navbar-links ${isOpen ? "active" : ""}`}>
         <div className="py-10 flex gap-6 items-center justify-center max-[400px]:flex max-[400px]:flex-col max-[400px]:">
           <ul className="nav-menu flex items-center list-none gap-6 font-medium max-[400px]:flex max-[400px]:flex-col">
-            <li className="flex flex-col items-center justify-center gap-1">
-              <Link>
-                Shop
-                <hr />
+            <li
+              className="flex flex-col items-center justify-center gap-1"
+              onClick={() => {
+                setMenu("shop");
+              }}
+            >
+              <Link to="/">
+                Shop{menu === "shop" ? <hr className="hr" /> : <></>}
               </Link>
             </li>
-            <li className="flex flex-col items-center justify-center gap-1">
-              <Link>Men</Link>
+            <li
+              className="flex flex-col items-center justify-center gap-1"
+              onClick={() => {
+                setMenu("men");
+              }}
+            >
+              <Link to="/men">
+                Men{menu === "men" ? <hr className="hr" /> : <></>}
+              </Link>
             </li>
-            <li className="flex flex-col items-center justify-center gap-1">
-              <Link>Women</Link>
+            <li
+              className="flex flex-col items-center justify-center gap-1"
+              onClick={() => {
+                setMenu("women");
+              }}
+            >
+              <Link to="/women">
+                Women{menu === "women" ? <hr className="hr" /> : <></>}
+              </Link>
             </li>
-            <li className="flex flex-col items-center justify-center gap-1">
-              <Link>Kids</Link>
+            <li
+              className="flex flex-col items-center justify-center gap-1"
+              onClick={() => {
+                setMenu("kids");
+              }}
+            >
+              <Link to="/kids">
+                Kids{menu === "kids" ? <hr className="hr" /> : <></>}
+              </Link>
             </li>
           </ul>
           <div className="nav-login-cart flex items-center gap-10 max-[400px]:flex max-[400px]:flex-col">
-            <button className="w-[157px] h-14 outline-none border-2 text-[20px] font-medium bg-white text-[#515151] border-[#7a7a7a] rounded-[75px] active:bg-[#f3f3f3] max-[400px]:w-[120px] max-[400px]:h-[42px] max-[400px]:text-[17px]">
-              Login
+            <button className="w-[140px] h-12 outline-none border-2 text-[20px] font-medium bg-white text-[#515151] border-[#7a7a7a] rounded-[75px] active:bg-[#f3f3f3] max-[400px]:w-[120px] max-[400px]:h-[42px] max-[400px]:text-[17px]">
+              <Link to="/login">Login</Link>
             </button>
-            <Link>
+            <Link to="/cart">
               <FaOpencart />
             </Link>
-            <div className="nav-cart-count w-[22px] h-[22px] flex items-center justify-center mt-[-60px] ml-[35px] rounded-[10px] text-[14px] bg-[#ec3c3c] text-white">
+            <div className="nav-cart-count w-[20px] h-[20px] flex items-center justify-center mt-[-25px] ml-[-45px] max-[400px]:mt-[-72px] max-[400px]:ml-[35px] rounded-[10px] text-[14px] bg-[#ec3c3c] text-white">
               0
             </div>
           </div>
