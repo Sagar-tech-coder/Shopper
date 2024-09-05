@@ -11,17 +11,21 @@ const Footer = () => {
       {/* Footer Section */}
       <section
         id="footer"
-        className="flex flex-col justify-center items-center gap-[50px] max-[400px]:gap-[20px]"
+        className="flex flex-col justify-center items-center gap-[50px] max-[400px]:gap-[20px] max-[500px]:gap-[20px]"
       >
         {/* Footer Logo */}
         <div className="footer-logo flex items-center gap-5">
-          <img src={footer_logo} alt="" className="max-[400px]:h-[50px]" />
-          <p className="text-[#383838] text-[46px] font-bold max-[400px]:text-[20px]">
+          <img
+            src={footer_logo}
+            alt=""
+            className="max-[400px]:h-[50px] max-[500px]:h-[50px]"
+          />
+          <p className="text-[#383838] text-[46px] font-bold max-[400px]:text-[20px] max-[500px]:text-[25px]">
             SHOOPER
           </p>
         </div>
         {/* Footer Links */}
-        <ul className="footer-links flex list-none text-[#252525] text-[20px] gap-[50px] max-[400px]:gap-[20px] max-[400px]:text-[12px]">
+        <ul className="footer-links flex list-none text-[#252525] text-[20px] gap-[50px] max-[400px]:gap-[20px] max-[400px]:text-[12px] max-[500px]:gap-[20px] max-[500px]:text-[15px]">
           <Link>
             <li>Company</li>
           </Link>
@@ -47,9 +51,15 @@ const Footer = () => {
           </div>
         </div>
         {/* Footer Copyright Text */}
-        <div className="footer-copyright flex flex-col items-center w-[100%] mb-[30px] text-[#1a1a1a] text-[20px] gap-[30px] max-[400px]:text-[12px] max-[400px]:gap-[15px] max-[400px]:mb-[15px]">
+        <div className="footer-copyright flex flex-col items-center w-[100%] mb-[30px] text-[#1a1a1a] text-[20px] gap-[30px] max-[400px]:text-[10px] max-[400px]:gap-[15px] max-[400px]:mb-[15px] max-[500px]:text-[12px] max-[500px]:gap-[15px] max-[500px]:mb-[15px]">
           <hr className="w-[80%] border-none rounded-[10px] h-[3px] bg-[#c7c7c7]" />
-          <p>Copyright @ 2024 - All Rights Reserved</p>
+          <p>
+            Copyright @ 2024 | Designed by{" "}
+            <Link to="https://sagarpatra.vercel.app/" className="text-blue-600">
+              Sagar
+            </Link>{" "}
+            - All Rights Reserved
+          </p>
         </div>
       </section>
     </>
