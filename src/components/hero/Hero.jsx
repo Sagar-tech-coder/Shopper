@@ -1,14 +1,14 @@
 import React from "react";
 import hand_icon from "../assets/hand_icon.png";
 import arrow_icon from "../assets/arrow.png";
-import hero_image from "../assets/hero-image.png";
+import hero_image from "../assets/hero_img.png";
 
 const Hero = () => {
   return (
     <>
       <section
         id="hero"
-        className="pt-[10vh] flex bg-gradient-to-b from-indigo-300 max-[400px]:flex-col max-[400px]:p-7 max-[400px]:pt-[100px] max-[500px]:flex-col max-[1200px]:pt-[14vh] ..."
+        className="pt-[10vh] flex bg-gradient-to-b from-indigo-300 max-[400px]:flex-col max-[400px]:p-7 max-[400px]:pt-[16vh] max-[500px]:flex-col max-[1200px]:pt-[14vh] ..."
       >
         {/* hero left */}
         <div className="hero-left flex flex-[1] flex-col justify-center gap-5 pl-[180px] leading-[1.1] max-[400px]:pl-[0] max-[400px]:pt-0 max-[500px]:pl-[4vw] max-[500px]:pr-[4vw] max-[400px]:gap-2 max-[500px]:pt-[6vh] max-[1200px]:pl-[5vw] max-[1280px]:pl-[4vw]">
