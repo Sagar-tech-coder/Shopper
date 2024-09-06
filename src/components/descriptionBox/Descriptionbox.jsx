@@ -5,7 +5,10 @@ const DescriptionBox = () => {
 
   // Content for Description and Review
   const descriptionContent = (
-    <div className="descBox-desc flex flex-col gap-6 border-2 border-[#d0d0d0] p-10">
+    <div
+      id="Description-box"
+      className="descBox-desc flex flex-col gap-6 border-2 border-[#d0d0d0] p-10 max-[400px]:text-[12px] max-[400px]:p-4"
+    >
       <p>
         An e-commerce website is an online platform that facilitate the buying
         and selling of products or services over the internet.It serves as a
@@ -25,7 +28,7 @@ const DescriptionBox = () => {
   );
 
   const reviewContent = (
-    <div className="descBox-desc flex flex-col gap-6 border-2 border-[#d0d0d0] p-10">
+    <div className="descBox-desc flex flex-col gap-6 border-2 border-[#d0d0d0] p-10 max-[400px]:text-[12px] max-[400px]:p-4">
       <p>
         This is the review section. Here you can read reviews from other users
         and see their ratings.
@@ -34,10 +37,10 @@ const DescriptionBox = () => {
   );
   return (
     <>
-      <div className="my-[120px] mx-[120px]">
+      <section className="my-[120px] mx-[120px] max-[400px]:my-[20px] max-[400px]:mx-[20px]">
         <div style={{ display: "flex", cursor: "pointer", marginBottom: "0" }}>
           <div
-            className="descBox-nav-box flex items-center justify-center text-[16px] font-semibold w-[170px] h-[70px] border-2 border-[#d0d0d0]"
+            className="descBox-nav-box flex items-center justify-center text-[16px] font-semibold w-[170px] h-[70px] border-2 border-[#d0d0d0] max-[400px]:text-[13px] max-[400px]:w-[130px] max-[400px]:h-[50px]"
             onClick={() => setActiveTab("description")}
             style={{
               marginRight: "0",
@@ -49,7 +52,7 @@ const DescriptionBox = () => {
             Description
           </div>
           <div
-            className="descBox-nav-box flex items-center justify-center text-[16px] font-semibold w-[170px] h-[70px] border-2 border-[#d0d0d0]"
+            className="descBox-nav-box flex items-center justify-center text-[16px] font-semibold w-[170px] h-[70px] border-2 border-[#d0d0d0] max-[400px]:text-[13px] max-[400px]:w-[130px] max-[400px]:h-[50px]"
             onClick={() => setActiveTab("review")}
             style={{
               fontWeight: activeTab === "review" ? "bold" : "normal",
@@ -62,7 +65,7 @@ const DescriptionBox = () => {
         <div>
           {activeTab === "description" ? descriptionContent : reviewContent}
         </div>
-      </div>
+      </section>
       {/* ################################################################ */}
       {/* <section id="descriptionbox" className="my-[120px] mx-[170px]">
         <div className="descBox-navigator flex">

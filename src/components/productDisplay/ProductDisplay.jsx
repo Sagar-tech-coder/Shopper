@@ -7,15 +7,22 @@ const ProductDisplay = (props) => {
   return (
     <>
       {/* Product Display Section */}
-      <section id="product-display" className="flex my-0 mx-[120px]">
+      <section
+        id="product-display"
+        className="flex my-0 mx-[120px] max-[400px]:mx-[0] max-[400px]:flex-col max-[400px]:w-full max-[400px]:pl-[4vw]"
+      >
         {/* product display left */}
-        <div className="productDisplay-left flex gap-4">
+        <div className="productDisplay-left flex gap-4 max-[400px]:my-6 max-[400px]:flex-col-reverse">
           {/* product left 4 images */}
-          <div className="productDisplay-img-list flex flex-col gap-4">
+          <div className="productDisplay-img-list flex flex-col gap-4 max-[400px]:flex-row">
             <img src={product.image} alt="" className="h-32 w-80" />
             <img src={product.image} alt="" className="h-32 w-80" />
             <img src={product.image} alt="" className="h-32 w-80" />
-            <img src={product.image} alt="" className="h-32 w-80" />
+            <img
+              src={product.image}
+              alt=""
+              className="h-32 w-80 max-[700px]:hidden"
+            />
           </div>
           {/* product left main image */}
           <div className="productDisplay-img">
@@ -27,9 +34,9 @@ const ProductDisplay = (props) => {
           </div>
         </div>
         {/* product display right */}
-        <div className="productDisplay-right flex flex-col my-0 mx-[70px]">
+        <div className="productDisplay-right flex flex-col my-0 mx-[70px] max-[400px]:mx-[0] max-[400px]:w-full">
           {/* product right heading */}
-          <h1 className="text-[#3d3d3d] text-[25px] font-bold">
+          <h1 className="text-[#3d3d3d] text-[25px] font-bold max-[500px]:text-[22px]">
             {product.name}
           </h1>
           {/* product right all 5 stars */}
@@ -64,26 +71,26 @@ const ProductDisplay = (props) => {
             <h1 className="mt-[55px] text-[#656565] text-[20px] font-semibold">
               Select Size
             </h1>
-            <div className="product-display-right-sizes flex my-[30px] mx-0 gap-5">
-              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer">
+            <div className="product-display-right-sizes flex my-[30px] mx-0 gap-5 max-[400px]:mx-[20px] max-[400px]:my- max-[400px]:gap-3">
+              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer max-[400px]:py-[13px] max-[400px]:px-[20px]">
                 S
               </div>
-              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer">
+              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer max-[400px]:py-[13px] max-[400px]:px-[20px]">
                 M
               </div>
-              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer">
+              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer max-[400px]:py-[13px] max-[400px]:px-[20px]">
                 L
               </div>
-              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer">
+              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer max-[400px]:py-[13px] max-[400px]:px-[20px]">
                 XL
               </div>
-              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer">
+              <div className="py-[18px] px-[24px] bg-[#fbfbfb] border-[2px] rounded-[3px] border-[#ebebeb] hover:bg-gray-300 duration-150 cursor-pointer max-[400px]:py-[13px] max-[400px]:px-[20px]">
                 XXL
               </div>
             </div>
           </div>
           {/* Add to Cart Button */}
-          <button className="py-[20px] px-[40px] w-[200px] text-[16px] font-semibold text-white bg-[#ff4141] mb-10 border-none outline-none">
+          <button className="py-[20px] px-[40px] w-[200px] text-[16px] font-semibold text-white bg-[#ff4141] mb-10 border-none outline-none max-[400px]:text-[13px] max-[400px]:w-[140px] max-[400px]:py-[15px] max-[400px]:px-[25px]">
             Add to Cart
           </button>
           <p className="prodoctDisplay-right-category mt-2">

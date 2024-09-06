@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbarl bg-[#947fd4] w-full h-[12vh] fixed z-50 flex justify-between px-[5vw] shadow-gray-300 max-[660px]:justify-between max-[660px]:items-center max-[400px]:py-4 max-[400px]:px-5">
+    <nav className="navbarl bg-[#947fd4] w-full h-[12vh] fixed z-50 flex justify-between px-[5vw] shadow-gray-300 max-[660px]:justify-between max-[660px]:items-center max-[400px]:py-4 max-[400px]:px-5 max-[400px]:h-[15vh]">
       <div className="nav-logo flex items-center gap-2">
         <img src={Logo} alt="" className="h-[50px] max-[400px]:h-[40px]" />
         <p className="text-white text-[30px] font-semibold max-[400px]:font-medium max-[400px]:text-[20px]">

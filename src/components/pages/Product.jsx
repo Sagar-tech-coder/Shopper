@@ -21,7 +21,7 @@ const Product = () => {
 
   return (
     <>
-      <section id="product-details">
+      <section id="product-details" className="max-[400px]:w-full">
         {/* image <img src={image} alt="" />
         name{name}
         old{new_price}

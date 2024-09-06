@@ -7,7 +7,7 @@ const RelatedProduct = () => {
     <>
       <section
         id="related-product"
-        className="flex flex-col items-center gap-2 h-[90vh]"
+        className="flex flex-col items-center gap-2 h-[90vh] max-[400px]:hidden"
       >
         <h1 className="text-[#171717] text-[50px] font-semibold">
           Related Products
