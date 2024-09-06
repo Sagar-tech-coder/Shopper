@@ -37,7 +37,7 @@
   .hamburger {
     display: none;
     flex-direction: column;
-    /* cursor: pointer; */
+    font-size: 2rem;
   }
   
   /* .hamburger .bar {
@@ -56,7 +56,7 @@
       right: 0;
       width: 100%;
       flex-direction: column;
-      background-color: #c9d4fd;
+      background-color: #735bb9;
       align-items: center;
       display: none;
     }

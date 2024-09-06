@@ -7,7 +7,7 @@ const Offers = () => {
       {/* Offers Section */}
       <section
         id="offers"
-        className="w-[80%] h-[70vh] flex m-auto py-0 px-[140px] mb-[150px] bg-gradient-to-b from-indigo-200 max-[400px]:w-full max-[400px]:px-[30px] max-[400px]:mb-0 max-[500px]:w-full max-[500px]:h-full max-[500px]:px-[5vw] max-[500px]:mb-6 max-[500px]:my-8 ..."
+        className="w-[80%] h-[70vh] flex m-auto py-0 px-[140px] mb-[150px] bg-gradient-to-b from-indigo-200 max-[400px]:w-full max-[400px]:px-[30px] max-[400px]:mb-0 max-[500px]:w-full max-[500px]:h-full max-[500px]:px-[5vw] max-[500px]:mb-6 max-[500px]:my-8 max-[1200px]:w-[95%] max-[1200px]:mt-[50px] max-[1200px]:h-[90vh] max-[1200px]:px-[40px] max-[1200px]:my-0 max-[1200px]:mb-[50px] max-[1200px]:px-[7vw] max-[1340px]:px-[7vw] max-[1340px]:w-[95%] max-[1340px]:mt-[50px] max-[1340px]:h-[90vh] max-[1340px]:px-[40px] max-[1340px]:my-0 max-[1340px]:mb-[50px] max-[1620px]:w-[95%] max-[1620px]:mt-[50px] max-[1620px]:h-[90vh] max-[1620px]:px-[40px] max-[1620px]:my-0 max-[1620px]:mb-[50px] max-[1620px]:px-[140px] ..."
       >
         {/* Offer Left */}
         <div className="offer-left flex flex-[1] flex-col justify-center max-[500px]:flex max-[500px]:mb-8">
