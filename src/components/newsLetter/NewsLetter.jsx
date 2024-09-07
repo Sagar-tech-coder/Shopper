@@ -15,7 +15,7 @@ const NewsLetter = () => {
         <p className="text-[#454545] text-[18px] max-[400px]:text-[10px] max-[500px]:text-[12px]">
           Subscribe to our newsletter and stay updated
         </p>
-        <div className="flex items-center justify-between bg-white w-[730px] h-[70px] rounded-[80px] border-[#e3e3e3] max-[400px]:mt-[20px] max-[400px]:w-[320px] max-[400px]:h-[40px] max-[500px]:w-[400px] max-[500px]:h-[50px] max-[1200px]:mt-[25px] max-[1340px]:mt-[25px] max-[1620px]:mt-[30px]">
+        <div className="flex items-center justify-between bg-white w-[730px] h-[70px] rounded-[80px] border-[#e3e3e3] max-[400px]:mt-[20px] max-[400px]:w-[330px] max-[400px]:h-[40px] max-[500px]:w-[420px] max-[500px]:h-[50px] max-[1200px]:mt-[25px] max-[1340px]:mt-[25px] max-[1620px]:mt-[30px]">
           <input
             type="email"
             placeholder="Your Email id ..."
