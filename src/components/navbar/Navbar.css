@@ -52,7 +52,7 @@
   @media (max-width: 768px) {
     .navbar-links {
       position: absolute;
-      top: 73px;
+      top: 90px;
       right: 0;
       width: 100%;
       flex-direction: column;
