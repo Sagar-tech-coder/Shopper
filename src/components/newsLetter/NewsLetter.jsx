@@ -15,14 +15,14 @@ const NewsLetter = () => {
         <p className="text-[#454545] text-[18px] max-[400px]:text-[10px] max-[500px]:text-[12px]">
           Subscribe to our newsletter and stay updated
         </p>
-        <div className="flex items-center justify-between bg-white w-[730px] h-[70px] rounded-[80px] border-[#e3e3e3] max-[400px]:mt-[20px] max-[400px]:w-[300px] max-[400px]:h-[40px] max-[500px]:w-[400px] max-[500px]:h-[50px] max-[1200px]:mt-[25px] max-[1340px]:mt-[25px] max-[1620px]:mt-[30px]">
+        <div className="flex items-center justify-between bg-white w-[730px] h-[70px] rounded-[80px] border-[#e3e3e3] max-[400px]:mt-[20px] max-[400px]:w-[320px] max-[400px]:h-[40px] max-[500px]:w-[400px] max-[500px]:h-[50px] max-[1200px]:mt-[25px] max-[1340px]:mt-[25px] max-[1620px]:mt-[30px]">
           <input
             type="email"
             placeholder="Your Email id ..."
             className="w-[500px] ml-[30px] border-none outline-none text-[#616161] text-[16px] max-[400px]:w-[250px] max-[400px]: max-[400px]:ml-[25px] max-[400px]:text-[12px]"
           />
           {/* Subscribe Button */}
-          <button className="w-[210px] h-[70px] rounded-[80px] bg-black text-white text-[16px] max-[400px]:w-[100px] max-[400px]:h-[40px] max-[400px]:text-[12px] max-[400px]:px-[0] max-[520px]:px-[25px] max-[520px]:w-[130px] max-[520px]:text-[13px] max-[520px]:h-[45px]">
+          <button className="w-[210px] h-[70px] rounded-[80px] bg-black text-white text-[16px] max-[400px]:w-[100px] max-[400px]:h-[40px] max-[400px]:text-[12px] max-[400px]:px-[20px] max-[520px]:px-[25px] max-[520px]:w-[130px] max-[520px]:text-[13px] max-[520px]:h-[45px]">
             Subscribe
           </button>
         </div>
