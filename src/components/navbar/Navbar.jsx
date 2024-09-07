@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="navbarl bg-[#947fd4] w-full h-[12vh] fixed z-50 flex justify-between px-[5vw] shadow-gray-300 max-[660px]:justify-between max-[660px]:items-center max-[400px]:py-4 max-[400px]:px-5 max-[400px]:h-[15vh]">
+    <nav className="navbarl bg-[#947fd4] w-full h-[12vh] fixed z-50 flex justify-between px-[5vw] shadow-gray-300 max-[660px]:justify-between max-[660px]:items-center max-[400px]:py-4 max-[400px]:px-5">
       <div className="nav-logo flex items-center gap-2">
         <img src={Logo} alt="" className="h-[50px] max-[400px]:h-[40px]" />
         <p className="text-white text-[30px] font-semibold max-[400px]:font-medium max-[400px]:text-[20px]">
@@ -22,8 +22,8 @@ function Navbar() {
         </p>
       </div>
       <div id="ham-nav" className={`navbar-links ${isOpen ? "active" : ""}`}>
-        <div className="py-10 flex gap-6 items-center justify-center max-[400px]:flex max-[400px]:flex-col max-[400px]:">
-          <ul className="nav-menu text-white flex items-center list-none gap-6 font-medium max-[400px]:flex max-[400px]:flex-col">
+        <div className="py-10 flex gap-6 items-center justify-center max-[520px]:flex max-[520px]:flex-col max-[400px]:">
+          <ul className="nav-menu text-white flex items-center list-none gap-6 font-medium max-[520px]:flex max-[520px]:flex-col">
             <li
               className="flex flex-col items-center justify-center gap-1"
               onClick={() => {
@@ -65,7 +65,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <div className="nav-login-cart flex items-center gap-10 max-[400px]:flex max-[400px]:flex-col">
+          <div className="nav-login-cart flex items-center gap-10 max-[520px]:flex max-[520px]:flex-col">
             <button className="w-[140px] h-12 outline-none border-2 text-[20px] font-medium bg-white text-[#515151] border-[#7a7a7a] rounded-[75px] active:bg-[#f3f3f3] max-[400px]:w-[120px] max-[400px]:h-[42px] max-[400px]:text-[17px]">
               <Link to="/login">Login</Link>
             </button>

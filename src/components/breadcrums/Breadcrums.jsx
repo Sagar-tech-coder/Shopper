@@ -12,24 +12,12 @@ const Breadcrums = (props) => {
     <>
       <div
         id="breadcrum"
-        className="flex items-center gap-2 text-[#5e5e5e] text-[16px] font-semibold my-[60px] mx-[170px] capitalize max-[400px]:my-0 max-[400px]:pt-[20vh] max-[400px]:mx-[4vw] max-[400px]:text-[10px] max-[400px]:w-full"
+        className="flex items-center gap-2 text-[#5e5e5e] text-[16px] font-semibold my-[60px] mx-[170px] capitalize max-[400px]:px-4 max-[520px]:my-0 max-[400px]:pt-[15vh] max-[520px]:pt-[15vh] max-[520px]:mx-[4vw] max-[400px]:text-[10px] max-[520px]:text-[13px] max-[520px]:w-full max-[1280px]:pt-[15vh] max-[1280px]:my-[0] max-[1620px]:mx-[4vw] max-[1620px]:my-0 max-[1620px]:pt-[15vh]"
       >
         HOME <img src={arrow_icon} alt="" />
         SHOP <img src={arrow_icon} alt="" />
         {product.category} <img src={arrow_icon} alt="" /> {product.name}
       </div>
-      {/* <div className="product-list">
-        {all_product.map((product) => (
-          <Items
-            key={product.id}
-            id={product.id}
-            image={product.image}
-            name={product.name}
-            new_price={product.new_price}
-            old_price={product.old_price}
-          />
-        ))}
-      </div> */}
     </>
   );
 };

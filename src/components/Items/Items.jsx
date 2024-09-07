@@ -7,7 +7,7 @@ const Items = ({ id, image, name, new_price, old_price }) => {
       <Link to={`/product/${id}`}>
         <section
           id="item"
-          className="w-[300px] mx-4 hover:scale-105 duration-[0.6s] border max-[400px]:w-[320px]"
+          className="w-[300px] mx-4 hover:scale-105 duration-[0.6s] border max-[400px]:w-[320px] max-[1380px]:mx-2"
         >
           <img src={image} alt="" onClick={window.scrollTo(0, 0)} />
           <p className="my-[6px] mx-0">{name}</p>

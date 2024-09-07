@@ -21,11 +21,7 @@ const Product = () => {
 
   return (
     <>
-      <section id="product-details" className="max-[400px]:w-full">
-        {/* image <img src={image} alt="" />
-        name{name}
-        old{new_price}
-        new{old_price} */}
+      <section id="product-details" className="max-[500px]:w-full">
         <Breadcrums product={product} />
         <ProductDisplay product={product} />
         <DescriptionBox />

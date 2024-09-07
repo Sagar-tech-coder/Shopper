@@ -22,7 +22,7 @@ const NewsLetter = () => {
             className="w-[500px] ml-[30px] border-none outline-none text-[#616161] text-[16px] max-[400px]:w-[250px] max-[400px]: max-[400px]:ml-[25px] max-[400px]:text-[12px]"
           />
           {/* Subscribe Button */}
-          <button className="w-[210px] h-[70px] rounded-[80px] bg-black text-white text-[16px] max-[400px]:w-[150px] max-[400px]:h-[40px] max-[400px]:text-[12px] max-[500px]:w-[200px] max-[500px]:text-[13px] max-[500px]:h-[45px]">
+          <button className="w-[210px] h-[70px] rounded-[80px] bg-black text-white text-[16px] max-[400px]:w-[150px] max-[400px]:h-[40px] max-[400px]:text-[12px] max-[400px]:px-[20px] max-[520px]:px-[25px] max-[520px]:w-[200px] max-[520px]:text-[13px] max-[520px]:h-[45px]">
             Subscribe
           </button>
         </div>

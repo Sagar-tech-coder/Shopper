@@ -11,21 +11,21 @@ const Footer = () => {
       {/* Footer Section */}
       <section
         id="footer"
-        className="flex flex-col justify-center items-center gap-[50px] max-[400px]:gap-[20px] max-[500px]:gap-[20px]"
+        className="flex flex-col justify-center items-center gap-[50px] max-[520px]:gap-[20px] max-[1620px]:mt-8"
       >
         {/* Footer Logo */}
         <div className="footer-logo flex items-center gap-5">
           <img
             src={footer_logo}
             alt=""
-            className="max-[400px]:h-[50px] max-[500px]:h-[50px] max-[1200px]:h-[60px] max-[1340px]:h-[60px]"
+            className="max-[400px]:h-[50px] max-[520px]:h-[50px] max-[1200px]:h-[60px] max-[1380px]:h-[60px]"
           />
-          <p className="text-[#383838] text-[46px] font-bold max-[400px]:text-[20px] max-[500px]:text-[25px] max-[1340px]:text-[30px] max-[1340px]:font-semibold">
+          <p className="text-[#383838] text-[46px] font-bold max-[400px]:text-[20px] max-[520px]:text-[25px] max-[1340px]:text-[30px] max-[1340px]:font-semibold max-[1380px]:text-[35px] max-[1620px]:text-[42px]">
             SHOOPER
           </p>
         </div>
         {/* Footer Links */}
-        <ul className="footer-links flex list-none text-[#252525] text-[20px] gap-[50px] max-[400px]:gap-[20px] max-[400px]:text-[12px] max-[500px]:gap-[20px] max-[500px]:text-[15px]">
+        <ul className="footer-links flex list-none text-[#252525] text-[20px] gap-[50px] max-[400px]:gap-[20px] max-[400px]:text-[12px] max-[520px]:gap-[20px] max-[520px]:text-[15px]">
           <Link>
             <li>Company</li>
           </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Footer Copyright Text */}
-        <div className="footer-copyright flex flex-col items-center w-[100%] mb-[30px] text-[#1a1a1a] text-[20px] gap-[30px] max-[400px]:text-[10px] max-[400px]:gap-[15px] max-[400px]:mb-[15px] max-[500px]:text-[12px] max-[500px]:gap-[15px] max-[500px]:mb-[15px]">
+        <div className="footer-copyright flex flex-col items-center w-[100%] mb-[30px] text-[#1a1a1a] text-[20px] gap-[30px] max-[400px]:text-[10px] max-[400px]:gap-[15px] max-[400px]:mb-[15px] max-[520px]:text-[12px] max-[520px]:gap-[15px] max-[520px]:mb-[15px]">
           <hr className="w-[80%] border-none rounded-[10px] h-[3px] bg-[#c7c7c7]" />
           <p>
             Copyright @ 2024 | Developed by{" "}
