@@ -6,7 +6,7 @@ const NewsLetter = () => {
       {/* News Letter Section */}
       <section
         id="newsletter"
-        className="w-[80%] h-[40vh] flex flex-col items-center justify-center m-auto py-0 px-[140px] mb-[150px] gap-[30px] bg-gradient-to-b from-indigo-300 max-[400px]:h-[30vh] max-[400px]:w-full max-[400px]:px-[30px] max-[400px]:gap-[5px] max-[400px]:mb-[0] max-[500px]:px-[20px] max-[500px]:w-full max-[500px]:h-[30vh] max-[500px]:gap-[10px] max-[500px]:mb-[20px] max-[1200px]:w-full max-[1200px]:mb-[20px] max-[1200px]:pt-[40px] max-[1200px]:gap-[0] max-[1340px]:w-full max-[1340px]:mb-[20px] max-[1340px]:pt-[40px] max-[1340px]:gap-[0] max-[1620px]:w-full max-[1620px]:mb-[20px] max-[1620px]:pt-[40px] max-[1620px]:gap-[0] ..."
+        className="w-[80%] h-[40vh] flex flex-col items-center justify-center m-auto py-0 px-[140px] mb-[150px] gap-[30px] bg-gradient-to-b from-indigo-300 max-[400px]:h-[30vh] max-[400px]:w-full max-[400px]:px-[15px] max-[400px]:gap-[5px] max-[400px]:mb-[0] max-[500px]:px-[20px] max-[500px]:w-full max-[500px]:h-[30vh] max-[500px]:gap-[10px] max-[500px]:mb-[20px] max-[1200px]:w-full max-[1200px]:mb-[20px] max-[1200px]:pt-[40px] max-[1200px]:gap-[0] max-[1340px]:w-full max-[1340px]:mb-[20px] max-[1340px]:pt-[40px] max-[1340px]:gap-[0] max-[1620px]:w-full max-[1620px]:mb-[20px] max-[1620px]:pt-[40px] max-[1620px]:gap-[0] ..."
       >
         {/* heading text */}
         <h1 className="text-[#454545] text-[40px] font-semibold max-[400px]:text-[17px] max-[500px]:text-[20px]">

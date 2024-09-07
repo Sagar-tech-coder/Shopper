@@ -31,7 +31,7 @@ function Navbar() {
               }}
             >
               <Link to="/">
-                Home{menu === "shop" ? <hr className="hr" /> : <></>}
+                Shop{menu === "shop" ? <hr className="hr" /> : <></>}
               </Link>
             </li>
             <li
